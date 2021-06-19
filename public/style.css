@@ -1,0 +1,370 @@
+.square {
+    width: 400px;
+    height: 500px;
+    background: #fff;
+}
+
+.pluss {
+    border-radius: 10%;    
+    font-size: 25px;
+    width: 2%;
+    height: 5%;
+    text-align: center;
+    border: #000 1px solid;
+    margin-left: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    list-style-type: none;
+}
+.pluss-active {
+    border: 1px solid #000;
+    background: green;
+}
+.first {
+    position: absolute;
+    left: 400px;
+    top: 488px;
+}
+.second {
+    position: absolute;
+    top: 550px;
+    left: 800px;
+}
+.third {
+    position: absolute;
+    top: 800px;
+    left: 480px;
+}
+.fourth {
+    position: absolute;
+    top: 488px;
+    right: 343px;
+}
+.fifth {
+    position: absolute;
+    top: 750px;
+    right: 450px;
+}
+.glassDIV {
+    display: flex;
+    justify-content: center;
+}
+.disabled {
+    background: gray;
+    cursor: not-allowed;
+}
+.glass {
+    height: 330px;
+    width: 1200px;
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+}
+.dialog { 
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    width: 200px;
+    height: 75px;
+    border: solid 2px black;
+    position: absolute;
+    top: 430px;
+    left: 370px;
+    display: grid;
+    grid-template-columns: 75px 75px 75px;
+    gap: 5px;
+}
+.cardd {
+    /* width: 50px;
+    height: 50px; */
+    border: black 2px solid;
+    text-align: center;
+    cursor: pointer;
+    /* display: grid;
+    grid-template-columns: repeat(1, 3fr); */
+}
+.cardd:hover {
+    background: #000;
+    color: #fff;
+}
+.cardd:visited {
+    background: #000;
+    color: #fff;
+}
+.hidden {
+    display: none;
+}
+.firstPluss {
+    border: 2px solid black;
+    width: 25px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 25px;
+    margin-top: 18px;
+    cursor: pointer;
+}
+.firstDialog {
+    position: absolute;
+    top: -70px;
+    left: -85px;
+    text-align: center;
+    padding: 2px;
+    width: 200px;
+    height: 75px;
+    border: solid 2px black;    
+    display: grid;
+    grid-template-columns: 94px 94px 94px;
+    gap: 5px;
+}
+.disable {
+    display: none;
+}
+.secondPluss {
+    border: 2px solid black;
+    width: 25px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 25px;
+    margin-top: 18px;
+    cursor: pointer;
+}
+.secondDialog {
+    position: absolute;
+    top: -200px;
+    left: -160px;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    width: 350px;
+    height: 200px;
+    border: solid 2px black;    
+    display: grid;
+    grid-template-columns: 120px 100px 100px;
+    gap: 5px;
+}
+.thirdPluss {
+    border: 2px solid black;
+    width: 25px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 25px;
+    margin-top: 18px;
+    cursor: pointer;
+}
+.thirdDialog {
+    position: absolute;
+    top: -100px;
+    left: -180px;
+    text-align: center;    
+    padding: 2px;
+    width: 400px;
+    height: 100px;
+    border: solid 2px black;    
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    gap: 5px;
+}
+.fourthPluss {
+    border: 2px solid black;
+    width: 25px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 25px;
+    margin-top: 18px;
+    cursor: pointer;
+}
+.fourthDialog {
+    position: absolute;
+    top: -75px;
+    left: -120px;
+    text-align: center;    
+    padding: 2px;
+    width: 300px;
+    height: 75px;
+    border: solid 2px black;    
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    gap: 5px;
+}
+.fifthPluss {
+    border: 2px solid black;
+    width: 25px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 25px;
+    margin-top: 18px;
+    cursor: pointer;
+}
+.fifthDialog {
+    position: absolute;
+    top: -250px;
+    left: -200px;
+    text-align: center;    
+    padding: 2px;
+    width: 400px;
+    height: 250px;
+    border: solid 2px black;    
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    gap: 5px;
+}
+.sixth {
+    position: absolute;
+    left: 1200px;
+    top: 700px;
+}
+.sixthDialog {
+    position: absolute;
+    top: -490px;
+    left: -200px;
+    text-align: center;    
+    padding: 2px;
+    width: 400px;
+    height: 500px;
+    border: solid 2px black;    
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    gap: 5px;
+}
+.sixthPluss {
+    border: 2px solid black;
+    width: 25px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 25px;
+    margin-top: 18px;
+    cursor: pointer;
+}
+.seventh {
+    position: absolute;
+    top: 612px;
+    left: 1500px;
+}
+.seventhDialog {
+    position: absolute;
+    top: -250px;
+    left: -200px;
+    text-align: center;    
+    padding: 2px;
+    width: 400px;
+    height: 250px;
+    border: solid 2px black;    
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    gap: 5px;
+}
+.seventhPluss {
+    border: 2px solid black;
+    width: 25px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 25px;
+    margin-top: 18px;
+    cursor: pointer;
+}
+.eighth {
+    position: absolute;
+    top: 612px;
+    left: 500px;
+}
+.eighthDialog {
+    position: absolute;
+    top: -140px;
+    left: -210px;
+    text-align: center;    
+    padding: 2px;
+    width: 400px;
+    height: 150px;
+    border: solid 2px black;    
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    gap: 5px;
+}
+.eighthPluss {
+    border: 2px solid black;
+    width: 25px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 25px;
+    margin-top: 18px;
+    cursor: pointer;
+}
+.nineth {
+    position: absolute;
+    top: 800px;
+    left: 1500px;
+}
+.ninethDialog {
+    position: absolute;
+    top: -100px;
+    left: -120px;
+    text-align: center;    
+    padding: 2px;
+    width: 250px;
+    height: 100px;
+    border: solid 2px black;    
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    gap: 5px;
+}
+.ninethPluss {
+    border: 2px solid black;
+    width: 25px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 25px;
+    margin-top: 18px;
+    cursor: pointer;
+}
+.tenth {
+    position: absolute;
+    top: 780px;
+    left: 1300px;
+}
+.tenthDialog {
+    position: absolute;
+    top: -100px;
+    left: -120px;
+    text-align: center;    
+    padding: 2px;
+    width: 250px;
+    height: 100px;
+    border: solid 2px black;    
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    gap: 5px;
+}
+.tenthPluss {
+    border: 2px solid black;
+    width: 25px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 25px;
+    margin-top: 18px;
+    cursor: pointer;
+}
+.eleventhDialog {
+    position: absolute;
+    top: -300px;    
+    text-align: center;    
+    padding: 2px;
+    width: 250px;
+    height: 100px;
+    /* border: solid 2px black;     */
+    display: grid;
+    grid-template-columns: 180px 120px 120px;
+    gap: 5px;
+}
+.carddw {
+    border: black 2px solid;
+    text-align: center;
+    cursor: pointer;
+}
+.hide {
+    display: none;
+}
+.block {
+    background: gray;
+    cursor: not-allowed;
+}
